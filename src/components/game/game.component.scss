@@ -1,0 +1,58 @@
+.pregame-container {
+  margin-top: 20px;
+  h4 {
+    color: #ff6c11;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin: 0;
+  }
+  .pregame-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .pregame-image {
+      width: 250px;
+      height: 250px;
+      border: 10px solid #ff6c11;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      margin: 40px 20px;
+     
+      img {
+        width: 200px;
+        height: auto;
+        
+      }
+      .topic-image {
+        width: 150px;
+      }
+    }
+  
+  }
+  h5 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin: 0;
+  }
+
+  .seconds {
+    color: white;
+    background-color: #ff6c11;
+    font-size: 80px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 30px auto;
+  }
+  
+}

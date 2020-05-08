@@ -1,0 +1,87 @@
+.topic-page {
+  .header {
+    display: flex;
+    flex-direction: row-reverse;
+    .space {
+      flex: 1;
+    }
+    h1 {
+      color: #ff6c11;
+      text-align: center;
+      font-size: 65px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 800;
+      margin: 0;
+      flex: 3;
+      margin: auto;
+    }
+    .logged-in {  
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin-right: 50px;
+      margin-top: 20px;
+      flex: 1;
+      
+      p {
+        margin-right: 10px;
+      }
+      .profile-pic {
+        width: 50px;
+        height: 50px;
+        border: 5px solid #ff6c11; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        img {
+          width: 45px;
+          transform: scale(1.05);
+        }
+      }
+
+     
+      
+    }
+    
+    
+    
+  }
+
+  .all-users {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .joined-user-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 20px;
+      .joined-user {
+        width: 50px;
+        height: 50px;
+        border: 5px solid #ff6c11; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        img {
+          width: 47px;
+          
+        }
+      }
+      label {
+        margin-top: 10px;
+      }
+    }
+    
+  }
+  h4 {
+    font-size: 40px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+  
+}

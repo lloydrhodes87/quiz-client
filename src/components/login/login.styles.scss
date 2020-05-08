@@ -1,0 +1,51 @@
+.login-container {
+  .header {
+    h1 {
+      color: #ff6c11;
+      text-align: center;
+      font-size: 65px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 800;
+      margin-bottom: 0;
+  
+    }
+    h2 {
+      text-align: center;
+      font-size: 45px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      margin-top: 20px;
+    }
+  }
+  
+  .avatar-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 10%;
+    .profile {
+      display: flex;
+      flex-direction: column;
+      img {
+        height: 300px;
+        border-radius: 10px;
+      }
+      button {
+        background-color: #ff6c11;
+        margin-top: 20px;
+        font-size: 30px;
+        color: white;
+        border-radius: 10px;
+        padding: 5px 10px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        transition: 0.5s ease-in-out;
+      }
+
+      button:hover {
+        transform: scale(1.1);
+      }
+    }
+  
+  }
+}
