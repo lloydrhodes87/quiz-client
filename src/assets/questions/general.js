@@ -139,7 +139,7 @@ const generalQuestions =
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "The New York Times slogan is, 'All the News That's Fit to;",
+      "question": "The New York Times slogan is, 'All the News That's Fit to",
       "correct_answer": "Print",
       "incorrect_answers": [
         "Digest",
@@ -163,12 +163,12 @@ const generalQuestions =
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "According to Fair Works Australia, how long do you have to work to get Long Service Leave?",
-      "correct_answer": "7 years",
+      "question": "Trafford Park, in Stretford, was the world's first what?",
+      "correct_answer": "Industrial Estate",
       "incorrect_answers": [
-        "2 years",
-        "8 years",
-        "6 months"
+        "Shopping Centre",
+        "Car Park",
+        "Park"
       ]
     },
     {
@@ -187,12 +187,12 @@ const generalQuestions =
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What company developed the vocaloid Hatsune Miku?",
-      "correct_answer": "Crypton Future Media",
+      "question": "When was the first recorded Coronavirus case?",
+      "correct_answer": "November",
       "incorrect_answers": [
-        "Sega",
-        "Sony",
-        "Yamaha Corporation"
+        "October",
+        "December",
+        "January"
       ]
     },
     {
@@ -235,12 +235,12 @@ const generalQuestions =
       "category": "General Knowledge",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In 'Battle Cats', what is Moneko / MISS Moneko's critical percentage rate?",
-      "correct_answer": "15%",
+      "question": "How do you say in Spanish, 'I like drugs in the evening because they make me feel good'",
+      "correct_answer": "Me gustan las drogas por la tarde porque me hacen sentir bien",
       "incorrect_answers": [
-        "20%",
-        "10%",
-        "25%"
+        "Me gusta las drogas por la tarde porque me hacen sentir bien",
+        "Me gustan los zapatos por la tarde porque me hacen sentir bien",
+        "Me encantar las drogas por la tarde porque me hacen sentir bien"
       ]
     }
   ]

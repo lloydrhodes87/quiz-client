@@ -31,6 +31,11 @@ const MainGame = ({
     const [gameMusicAudio] = useState(new Audio(gameMusicUrl));
     const [winMusicAudio] = useState(new Audio(winMusicUrl))
 
+    gameMusicAudio.addEventListener('ended', function () {
+      gameMusicAudio.currentTime = 0;
+      this.play();
+    }, false);
+
     const questionNumRef = useCallback(node => {
       if (node !== null) {
         setQuestionNum(node);

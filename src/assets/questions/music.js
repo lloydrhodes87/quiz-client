@@ -5,24 +5,24 @@ const musicQuestions = {
       "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which Canadian reggae musician had a 1993 hit with the song 'Informer'?",
-      "correct_answer": "Snow",
+      "question": "What were Radiohead originally called",
+      "correct_answer": "On A Friday",
       "incorrect_answers": [
-        "Rain",
-        "Hail",
-        "Sleet"
+        "On A Monday",
+        "On A Weekday",
+        "On a Thursday"
       ]
     },
     {
       "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who had a 1983 hit with the song 'Africa'?",
-      "correct_answer": "Toto",
+      "question": "Who are the co founders of a well known special education music school based in Manchester'?",
+      "correct_answer": "Billy and Andy",
       "incorrect_answers": [
-        "Foreigner",
-        "Steely Dan",
-        "Journey"
+        "Silly and Randy",
+        "Mindy and Candy",
+        "Willy and Dandy"
       ]
     },
     {
@@ -101,24 +101,24 @@ const musicQuestions = {
       "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who was featured in the song 'Words' by Feint? ",
-      "correct_answer": "Laura Brehm",
+      "question": "Who invented the piano? ",
+      "correct_answer": "Bartolomeo Cristofori",
       "incorrect_answers": [
-        "Anna Yvette ",
-        "Danyka Nadeau",
-        "Veela"
+        "Adolphe Sax",
+        "Andrea Amati",
+        "Heinrich Stoelzel"
       ]
     },
     {
       "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What was Daft Punk's first studio album?",
-      "correct_answer": "Homework",
+      "question": "Which singer played himself in Tim Burton's 1996 film Mars Attacks?",
+      "correct_answer": "Tom Jones",
       "incorrect_answers": [
-        "Discovery",
-        "Random Access Memories",
-        "Human After All"
+        "Dean Martin",
+        "George Michael",
+        "Elton John"
       ]
     },
     {
@@ -149,11 +149,11 @@ const musicQuestions = {
       "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which classical composer wrote the 'Moonlight Sonata'?",
-      "correct_answer": "Ludvig Van Beethoven",
+      "question": "Which classical composer wrote the 'Eine kleine nachtmusik'?",
+      "correct_answer": "Wolfgang Amadeus Mozart",
       "incorrect_answers": [
-        "Chief Keef",
-        "Wolfgang Amadeus Mozart",
+        "Anton Bruckner",
+        "Ludwig Van Beethoven",
         "Johannes Brahms"
       ]
     },

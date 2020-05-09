@@ -16,7 +16,8 @@ const Landing = () => {
     const [username, setUsername] = useState('');
     const [topicData, setTopicData] = useState('');
     const gameMusicUrl = 'https://hainsey-quiz.s3-eu-west-1.amazonaws.com/Gameshow-Background-Tension-152kbit_Opus.mp3'
-    const winMusicUrl = 'https://hainsey-quiz.s3-eu-west-1.amazonaws.com/win-end-music.mp3'
+    const winMusicUrl = 'https://hainsey-quiz.s3-eu-west-1.amazonaws.com/win-end-music.mp3';
+    
    
     useEffect(() => {
         socket.on('all-users', (users) => {
