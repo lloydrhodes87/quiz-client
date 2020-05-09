@@ -33,10 +33,9 @@ const ChooseTopic = ({username, allUsers, getTopic, socket, getTopicData}) => {
 
 
     useDeepCompareEffect(() => {
-        console.log('allUsers', allUsers)
-        console.log('user object', userObject)
+     
           allUsers.map(user => {
-              console.log(user)
+           
             if (userObject.some(person => person.name === user)) {
                 return user;
             } else {

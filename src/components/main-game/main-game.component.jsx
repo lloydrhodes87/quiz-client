@@ -116,7 +116,7 @@ const MainGame = ({
     useEffect(() => {
         if (timer === 0) {
             setTimer(20)
-            if (questionNum <= 1) {
+            if (questionNum <= 19) {
                 
               setQuestionNum(questionNum+=1)
             } else {
@@ -161,7 +161,7 @@ const MainGame = ({
 
     useEffect(() => {
         if (questions.length > 0) {
-            if (questionNum < 2) {
+            if (questionNum <= 19) {
                 setQuestion(questions[questionNum].question)
                 const answers = [
                     ...questions[questionNum].incorrect_answers,
@@ -239,7 +239,7 @@ const MainGame = ({
                 </div>
                 
                 <div className='game-question'>
-                  <h2>{question}</h2>
+        <h2>{questionNum + 1}) {question}</h2>
                 </div>
                     
                 <div 
@@ -347,10 +347,10 @@ const MainGame = ({
                       <h2>{winnerList[1].score}</h2>
                       <img src={winnerList[1].avatar}></img>
                       <div className='tears'>
-                        <img src={tears} class='tear-1' alt='tears'></img>
-                        <img src={tears} class='tear-2' alt='tears'></img>
-                        <img src={tears} class='tear-3' alt='tears'></img>
-                        <img src={tears} class='tear-4' alt='tears'></img>
+                        <img src={tears} className='tear-1' alt='tears'></img>
+                        <img src={tears} className='tear-2' alt='tears'></img>
+                        <img src={tears} className='tear-3' alt='tears'></img>
+                        <img src={tears} className='tear-4' alt='tears'></img>
                       </div>
                       
                     </div>
@@ -364,10 +364,10 @@ const MainGame = ({
                       <h2>{winnerList[2].score}</h2>
                       <img src={winnerList[2].avatar}></img>
                       <div className='tears'>
-                        <img src={tears} class='tear-1' alt='tears'></img>
-                        <img src={tears} class='tear-2' alt='tears'></img>
-                        <img src={tears} class='tear-3' alt='tears'></img>
-                        <img src={tears} class='tear-4' alt='tears'></img>
+                        <img src={tears} className='tear-1' alt='tears'></img>
+                        <img src={tears} className='tear-2' alt='tears'></img>
+                        <img src={tears} className='tear-3' alt='tears'></img>
+                        <img src={tears} className='tear-4' alt='tears'></img>
                       </div>
                     </div>
                 </div>
