@@ -9,6 +9,7 @@ const Login = ({getSignedInUser}) => {
   const handleSignIn = (username) => {
     getSignedInUser(username)
   }
+  
   return (
     <div className='login-container'>
       <div className='header'>

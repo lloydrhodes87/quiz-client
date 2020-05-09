@@ -214,8 +214,22 @@ h2 {
     }
     
   }
+  .fireworks {
+  
+    position: absolute;
+    width: 100%;
+
+   
+
+    img {
+      width: 200px;
+      margin: 0 50px;
+      
+      
+    }
+  }
   .podium {
-    transform: translateY(-20px);
+    transform: translateY(30px);
     .podium-avatars {
       
       display: flex;
@@ -230,12 +244,56 @@ h2 {
       }
       .first {
         transform: translateY(50px);
+        
+        
       }
       .second {
         transform: translateY(140px) translateX(20px);
+        .tears {
+        
+          img {
+            width: 30px;
+            margin: 0 10px;
+            position: absolute;
+            bottom: 20px;
+            &.tear-1 {
+              right: 0%;
+            }
+            &.tear-2 {
+              right: 20%;
+            }
+            &.tear-3 {
+              right: 45%;
+            }
+            &.tear-4 {
+              right: 70%;
+            }
+          }
+        }
       }
       .third {
         transform: translateY(190px) translateX(-20px);
+        .tears {
+        
+          img {
+            width: 30px;
+            margin: 0 10px;
+            position: absolute;
+            bottom: 20px;
+            &.tear-1 {
+              right: 0%;
+            }
+            &.tear-2 {
+              right: 20%;
+            }
+            &.tear-3 {
+              right: 45%;
+            }
+            &.tear-4 {
+              right: 70%;
+            }
+          }
+        }
       }
     }
     .stand {

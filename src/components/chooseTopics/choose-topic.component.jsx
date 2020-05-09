@@ -24,27 +24,35 @@ const ChooseTopic = ({username, allUsers, getTopic, socket, getTopicData}) => {
         
     }, [username]);
 
-    // const getTopicData = async(data) => {
-    //   console.log(data)
-    //   await socket.emit('topic-choice-details', JSON.stringify(data))
-    // }
+
+    useEffect(() => {
+       socket.emit('user-object', userObject)
+    },[userObject])
+    
+
+
 
     useDeepCompareEffect(() => {
+        console.log('allUsers', allUsers)
+        console.log('user object', userObject)
           allUsers.map(user => {
+              console.log(user)
             if (userObject.some(person => person.name === user)) {
                 return user;
             } else {
+         
                 setUserObject([
                     ...userObject, {
                         name: user,
                         avatar: findAvatar(user)
                     }
                 ])
+
             }
             return user;
         })
         
-    }, [allUsers])
+    }, [allUsers, userObject])
 
     const findAvatar = (name) => {
         if (name === 'Candy') 
@@ -67,7 +75,7 @@ const ChooseTopic = ({username, allUsers, getTopic, socket, getTopicData}) => {
             <div className="header">
                 <div className='logged-in'>
                     <p>Logged in as
-                        <strong>{username}</strong>
+                        <strong> {username}</strong>
                     </p>
                     <div className='profile-pic'>
                         <img src={profilePic} alt='profile'></img>
@@ -79,6 +87,7 @@ const ChooseTopic = ({username, allUsers, getTopic, socket, getTopicData}) => {
 
             <div className='all-users'>
                 {
+                    userObject &&
                 userObject.map(user => {
                     return (
                         <div key={

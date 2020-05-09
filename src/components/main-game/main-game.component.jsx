@@ -1,4 +1,4 @@
-import React, {useEffect, useState, useRef, useCallback} from 'react';
+import React, {useEffect, useState, useRef, useCallback } from 'react';
 import './main-game.styles.scss';
 
 const MainGame = ({
@@ -7,10 +7,16 @@ const MainGame = ({
     socket,
     topicImage,
     allAvatars,
+    gameMusicUrl,
+    winMusicUrl
 }) => {
     const exit = require('../../assets/exit.png')
     const eggTimer = require('../../assets/egg-timer.gif')
     const podium = require('../../assets/podium.png')
+    const tears = require('../../assets/tears.gif')
+    const fireworkBlue = require('../../assets/fireworkblue.gif')
+    const fireworkRed = require('../../assets/fireworkred.gif')
+
 
     let [questionNum, setQuestionNum] = useState(0);
     const [answerArray, setAnswerArray] = useState([]);
@@ -22,6 +28,8 @@ const MainGame = ({
     const [gameState, setGameState] = useState('play')
     const [showScores, setShowScores] = useState(false)
     const [winnerList, setWinnerList] = useState([])
+    const [gameMusicAudio] = useState(new Audio(gameMusicUrl));
+    const [winMusicAudio] = useState(new Audio(winMusicUrl))
 
     const questionNumRef = useCallback(node => {
       if (node !== null) {
@@ -29,14 +37,7 @@ const MainGame = ({
       }
     }, []);
 
-    // const questionNumReference = useRef(questionNum)
 
-    // const nextQuestionCallback = useCallback(node => {
-    //   if (node !== null) {
-    //     let newQuestionNum = questionNumReference.current += 1
-    //     questionNumRef(newQuestionNum)
-    //   }
-    // }, [questionNumRef]);
 
 
   
@@ -71,12 +72,22 @@ const MainGame = ({
     useInterval(() => {
       if (gameState === 'play') {
         setTimer(timer -= 1)
+        
       }
       if (timer === 0) {
         setTimer(20)
       }
      
     }, 1000);
+
+
+    useEffect(() => {
+      if (gameState === 'play') {
+        gameMusicAudio.play()
+      } else {
+        gameMusicAudio.pause()
+      }
+    },[gameState])
 
 
     useEffect(() => {
@@ -105,12 +116,14 @@ const MainGame = ({
     useEffect(() => {
         if (timer === 0) {
             setTimer(20)
-            if (questionNum <= 19) {
+            if (questionNum <= 1) {
                 
               setQuestionNum(questionNum+=1)
             } else {
                 setGameState('pause')
                 setShowScores(true)
+                gameMusicAudio.pause();
+                winMusicAudio.play();
             }
 
         }
@@ -148,7 +161,7 @@ const MainGame = ({
 
     useEffect(() => {
         if (questions.length > 0) {
-            if (questionNum < 19) {
+            if (questionNum < 2) {
                 setQuestion(questions[questionNum].question)
                 const answers = [
                     ...questions[questionNum].incorrect_answers,
@@ -160,9 +173,21 @@ const MainGame = ({
                 setDisableButtons(false)
             } else {
               setShowScores(true)
+              gameMusicAudio.pause()
+              winMusicAudio.play()
             }
         }
     }, [questions, questionNum])
+
+    useEffect(() => {
+      socket.on('server-exit-game', (data) => {
+        gameMusicAudio.pause();
+        winMusicAudio.pause();
+      })
+      return () => {
+        socket.off('server-exit-game')
+      }
+    },[socket])
 
 
     const shuffle = (array) => {
@@ -309,12 +334,24 @@ const MainGame = ({
               </div>
               <div className="winner-header">
                 <h2>The winner is {winnerList[0].usermame}!!!</h2>
+                <div className='fireworks'>
+                  <img src={fireworkBlue} alt='firework' className='firework-blue'></img>
+                  <img src={fireworkRed} alt='firework' className='firework-red'></img>
+
+                </div>
+              
               </div>
               <div className="podium">
                 <div className="podium-avatars">
                     <div className='second'>
                       <h2>{winnerList[1].score}</h2>
                       <img src={winnerList[1].avatar}></img>
+                      <div className='tears'>
+                        <img src={tears} class='tear-1' alt='tears'></img>
+                        <img src={tears} class='tear-2' alt='tears'></img>
+                        <img src={tears} class='tear-3' alt='tears'></img>
+                        <img src={tears} class='tear-4' alt='tears'></img>
+                      </div>
                       
                     </div>
                     
@@ -326,6 +363,12 @@ const MainGame = ({
                     <div className='third'>
                       <h2>{winnerList[2].score}</h2>
                       <img src={winnerList[2].avatar}></img>
+                      <div className='tears'>
+                        <img src={tears} class='tear-1' alt='tears'></img>
+                        <img src={tears} class='tear-2' alt='tears'></img>
+                        <img src={tears} class='tear-3' alt='tears'></img>
+                        <img src={tears} class='tear-4' alt='tears'></img>
+                      </div>
                     </div>
                 </div>
                 <div className="stand">
