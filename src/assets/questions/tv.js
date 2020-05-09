@@ -19,12 +19,12 @@ const tvQuestions =
       "category": "Entertainment: Television",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What's Dr. Doofenshmirtz first name?",
-      "correct_answer": "Heinz",
+      "question": "What's best?",
+      "correct_answer": "Power",
       "incorrect_answers": [
-        "Hans",
-        "Hank",
-        "Heidi"
+        "Rick & Morty",
+        "Rick & Morty",
+        "Rick & Morty"
       ]
     },
     {
@@ -43,12 +43,12 @@ const tvQuestions =
       "category": "Entertainment: Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these Bojack Horseman characters is a human?",
-      "correct_answer": "Todd Chavez",
+      "question": "Which of these is not the name of a Teenage Mutant Ninja Turtle?",
+      "correct_answer": "Tortellini",
       "incorrect_answers": [
-        "Lennie Turtletaub",
-        "Princess Carolyn",
-        "Tom Jumbo-Grumbo"
+        "Donatello",
+        "Michelangelo",
+        "Leonardo"
       ]
     },
     {
@@ -67,24 +67,24 @@ const tvQuestions =
       "category": "Entertainment: Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the show 'Tengen Toppa Gurren Lagann' what is the name of the character who force everyone to live underground?",
-      "correct_answer": "Lordgenome",
+      "question": "Which of these is NOT one of the directors of Star Wars?",
+      "correct_answer": "Adam Driver",
       "incorrect_answers": [
-        "Kingloname",
-        "Lord Genome",
-        "King Loname"
+        "Richard Marquand",
+        "J.J. Abrams",
+        "George Lucas"
       ]
     },
     {
       "category": "Entertainment: Television",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "How long was Ken Jennings' win streak on Jeopardy?",
-      "correct_answer": "74",
+      "question": "Which of these characters is part of the series 'Modern Family'?",
+      "correct_answer": "Gloria",
       "incorrect_answers": [
-        "88",
-        "49",
-        "62"
+        "Ingrid",
+        "Cat",
+        "Jess"
       ]
     },
     {
@@ -103,76 +103,84 @@ const tvQuestions =
       "category": "Entertainment: Television",
       "type": "boolean",
       "difficulty": "medium",
-      "question": "Like his character in 'Parks and Recreation', Aziz Ansari was born in South Carolina.",
-      "correct_answer": "True",
+      "question": "All characters on The Simpson's have just 4 fingers on each hand, except for one with five, who is it",
+      "correct_answer": "God",
       "incorrect_answers": [
-        "False"
+        "Apu",
+        "Ned Flanders",
+        "Mou"
       ]
     },
     {
       "category": "Entertainment: Television",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which of these in the Star Trek series is NOT Klingon food?",
-      "correct_answer": "Hors d'oeuvre",
+      "question": "Which man had a hand in casting Millie Bobby Brown, the actress who plays 'Eleven' in Stranger Things?",
+      "correct_answer": "Stephen King",
       "incorrect_answers": [
-        "Racht",
-        "Gagh",
-        "Bloodwine"
+        "Jim Carrey",
+        "Will Smith",
+        "Tim Burton"
       ]
     },
     {
       "category": "Entertainment: Television",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "Klingons express emotion in art through opera and poetry.",
-      "correct_answer": "True",
+      "question": "What are the names of Will Smith's children",
+      "correct_answer": "Willow and Jaden smith",
       "incorrect_answers": [
-        "False"
+        "Widow and Jaden Smith",
+        "Willow and kaden Smith",
+        "None of these ones"
       ]
     },
     {
       "category": "Entertainment: Television",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What was Nickelodeon's original name?",
-      "correct_answer": "Pinwheel",
+      "question": "In the film 'Dumb & Dumber, what's the name of the character that Lloyd and Harry killed giving him rat poison by accident?",
+      "correct_answer": "Joe Mentalino",
       "incorrect_answers": [
-        "MTVKids",
-        "KidsTV",
-        "Splat!"
+        "Joe Rat",
+        "Joseph Felini",
+        "None of these ones"
       ]
     },
     {
       "category": "Entertainment: Television",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "In 'Star Trek', Klaang is a typical Klingon male.",
-      "correct_answer": "True",
+      "question": "What's the name of the character that Brad Pit plays in 'Fight Club'",
+      "correct_answer": "Tyler Durden",
       "incorrect_answers": [
-        "False"
+        "Robert Paulson",
+        "Tim Drek",
+        "Thomas Daryl"
       ]
     },
     {
       "category": "Entertainment: Television",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In 'Star Trek', what is the Klingon death ritual?",
-      "correct_answer": "Look into sky and yell loudly in mourning.",
+      "question": "When was the release year of the film 'Seven'?",
+      "correct_answer": "1996",
       "incorrect_answers": [
-        "Kiss the jagged forehead before burial.",
-        "Shoot into space in a torpedo casing.",
-        "Split the deceased's earnings between bloodkin."
+        "1995",
+        "1994",
+        "1997"
       ]
     },
     {
       "category": "Entertainment: Television",
       "type": "boolean",
       "difficulty": "easy",
-      "question": "In 'Star Trek', Klingons are aliens.",
-      "correct_answer": "True",
+      "question": "What's the Spanish name of the trendy Netflix series 'Money Heist'?",
+      "correct_answer": "La Casa de Papel",
       "incorrect_answers": [
-        "False"
+        "Atraco A La Moneda",
+        "Robo del Dinero",
+        "La Casa del Dinero"
       ]
     },
     {
@@ -191,48 +199,48 @@ const tvQuestions =
       "category": "Entertainment: Television",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What was the callsign of Commander William Adama in Battlestar Galactica (2004)?",
-      "correct_answer": "Husker",
+      "question": "Who's completly obssesed with and can't sleep at night thinking of the series White Collar?",
+      "correct_answer": "Lloyd Rhodes",
       "incorrect_answers": [
-        "Starbuck",
-        "Apollo",
-        "Crashdown"
+        "John Appleby",
+        "Mario Casas",
+        "Luis Torres"
       ]
     },
     {
       "category": "Entertainment: Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In 'Star Trek: Voyager', which episode did Voyager establish real-time communication with Starfleet Headquarters?",
-      "correct_answer": "Pathfinder",
+      "question": "Who plays Daenerys Targaryen in Game of Thrones?",
+      "correct_answer": "Emilia Clarke",
       "incorrect_answers": [
-        "Message In A Bottle",
-        "Someone To Watch Over Me",
-        "Counterpoint"
+        "Sophie Turner",
+        "Maisie Williams",
+        "Lena Headey"
       ]
     },
     {
       "category": "Entertainment: Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "On the NBC show Community, whose catch-phrase was 'Pop! Pop!'?",
-      "correct_answer": "Magnitude",
+      "question": "What's the popular song that appears on the film Space Jam?",
+      "correct_answer": "I Believe I Can Fly",
       "incorrect_answers": [
-        "Star Burns",
-        "Leonard",
-        "Senoir Chang"
+        "I Believe I Can Win",
+        "I Believe I Can Try",
+        "I Believe I Can Lie"
       ]
     },
     {
       "category": "Entertainment: Television",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What Nickelodeon game show featured a house on the set that the contestants would ransack to find hidden objects?",
-      "correct_answer": "Finders Keepers",
+      "question": "Which of these Chasers is NOT part of the TV show The Chase?",
+      "correct_answer": "The Feast",
       "incorrect_answers": [
-        "Double Dare",
-        "Nickelodeon Guts",
-        "Nick Arcade"
+        "The Dark Destroyer",
+        "The Sinnerman",
+        "The Vixen"
       ]
     }
   ]

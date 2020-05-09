@@ -31,12 +31,12 @@ const artQuestions =
       "category": "Art",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which time signature is commonly known as 'Cut Time?'",
-      "correct_answer": "2/2",
+      "question": "What did Ingrid famously compared something to be that it did in fact turned to be?'",
+      "correct_answer": "Shit",
       "incorrect_answers": [
-        "4/4",
-        "6/8",
-        "3/4"
+        "Pasta",
+        "A fridge-freezer",
+        "A painted of a person"
       ]
     },
     {
@@ -67,12 +67,12 @@ const artQuestions =
       "category": "Art",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which artists studio was known as 'The Factory'?",
-      "correct_answer": "Andy Warhol",
+      "question": "Which Spanish architect designed 'The Sacred Family'?",
+      "correct_answer": "Gaudí",
       "incorrect_answers": [
-        "Roy Lichtenstein",
-        "David Hockney",
-        "Peter Blake"
+        "Dalí",
+        "Goya",
+        "Picasso"
       ]
     },
     {
@@ -91,12 +91,12 @@ const artQuestions =
       "category": "Art",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What year did Albrecht Albrecht Dürer create the painting 'The Young Hare'?",
-      "correct_answer": "1502",
+      "question": "Who painted the famoues painting 'The Scream'?",
+      "correct_answer": "Edvard Munch",
       "incorrect_answers": [
-        "1702",
-        "1402",
-        "1602"
+        "Edvard Scissorhands",
+        "Edvard Satie",
+        "None of these ones"
       ]
     },
     {
@@ -115,36 +115,36 @@ const artQuestions =
       "category": "Art",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who painted 'Swans Reflecting Elephants', 'Sleep', and 'The Persistence of Memory'?",
-      "correct_answer": "Salvador Dali",
+      "question": "Why Vincent Van Gogh cut off his ear?",
+      "correct_answer": "He suffered from hallucinations and used a knife during one of his attacks",
       "incorrect_answers": [
-        "Jackson Pollock",
-        "Vincent van Gogh",
-        "Edgar Degas"
+        "He was on drugs and he enjoyed extreme activities",
+        "He was bored and tried to innovate",
+        "He wanted to be Trending Topic in Amsterdam"
       ]
     },
     {
       "category": "Art",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which one of these paintings is not by Caspar David Friedrich?",
-      "correct_answer": "The Black Sea",
+      "question": "Between 1912 and 1948, art used to be...?",
+      "correct_answer": "An Olympic Event",
       "incorrect_answers": [
-        "The Sea of Ice",
-        "Wanderer above the Sea of Fog",
-        "The Monk by the Sea"
+        "A Religious Sign",
+        "A Pain in The Arse",
+        "A Christmas Party"
       ]
     },
     {
       "category": "Art",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which of these are the name of a famous marker brand?",
-      "correct_answer": "Copic",
+      "question": "The Bauhaus was...?",
+      "correct_answer": "An art, architecture and design school in Germany",
       "incorrect_answers": [
-        "Dopix",
-        "Cofix",
-        "Marx"
+        "An art, architecture and design school in France",
+        "An art, architecture and design school in Netherlands",
+        "A place to smoke weed and get creative"
       ]
     },
     {
@@ -163,24 +163,24 @@ const artQuestions =
       "category": "Art",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which of these is not an additional variation of the color purple?",
-      "correct_answer": "Kobicha",
+      "question": "What colour can we get if we mix blue and yellow?",
+      "correct_answer": "Green",
       "incorrect_answers": [
-        "Byzantium",
-        "Pomp and Power",
-        "Palatinate"
+        "Orange",
+        "Brown",
+        "Cian"
       ]
     },
     {
       "category": "Art",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "How many paint and pastel versions of 'The Scream' is Norwegian painter Edvard Munch believed to have produced?",
-      "correct_answer": "4",
+      "question": "Oil painting is made of...?",
+      "correct_answer": "Dry powder pigments with selected refined linseed oil",
       "incorrect_answers": [
-        "1",
-        "3",
-        "2"
+        "Powder pigments with extra virging olive oil from Spain",
+        "Wet powder pigments with selected refined linseed oil",
+        "Dry parpika with selected refined linseed oil"
       ]
     },
     {
@@ -211,36 +211,36 @@ const artQuestions =
       "category": "Art",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which Van Gogh painting depicts the view from his asylum in Saint-Rémy-de-Provencee in southern France?",
-      "correct_answer": "The Starry Night",
+      "question": "Where was Frida Kahlo born?",
+      "correct_answer": "Mexico",
       "incorrect_answers": [
-        "Wheatfields with Crows",
-        "The Sower with Setting Sun",
-        "The Church at Auvers"
+        "Colombia",
+        "Cuba",
+        "Argentina"
       ]
     },
     {
       "category": "Art",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which painting was not made by Vincent Van Gogh?",
-      "correct_answer": "The Ninth Wave",
+      "question": "At what age and why did Fridah Khalo died?",
+      "correct_answer": "47, pulmonary embolism",
       "incorrect_answers": [
-        "Caf&eacute; Terrace at Night",
-        "Bedroom In Arles",
-        "Starry Night"
+        "30, car accident",
+        "60, drank too much paint",
+        "40, she killed herself"
       ]
     },
     {
       "category": "Art",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "The painting 'The Starry Night' by Vincent van Gogh was part of which art movement?",
-      "correct_answer": "Post-Impressionism",
+      "question": "What style did René Magritte painted?",
+      "correct_answer": "Surrealism",
       "incorrect_answers": [
         "Romanticism",
         "Neoclassical",
-        "Impressionism"
+        "Abstract"
       ]
     }
   ]

@@ -18,23 +18,23 @@ const bookQuestions =
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "George Orwell wrote this book, which is often considered a statement on government oversight.",
-      "correct_answer": "1984",
+      "question": "Who wrote 'El Quijote'?",
+      "correct_answer": "Miguel de Cervantes",
       "incorrect_answers": [
-        "The Old Man and the Sea",
-        "Catcher and the Rye",
-        "To Kill a Mockingbird"
+        "Miguel de Unamuno",
+        "García Lorca",
+        "José de Cervantes"
       ]
     },
     {
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which author and poet famously wrote the line, 'The female of the species is more deadly than the male'?",
-      "correct_answer": "Rudyard Kipling",
+      "question": "Who wrote 'Hamlet'?",
+      "correct_answer": "William Shakespeare",
       "incorrect_answers": [
         "Edgar Allan Poe",
-        "William Shakespeare",
+        "Oscar Wilde",
         "William Wordsworth"
       ]
     },
@@ -54,12 +54,12 @@ const bookQuestions =
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Who wrote the 1967 horror novel Rosemary's Baby?",
-      "correct_answer": "Ira Levin",
+      "question": "If Mike had finished his first novel, who would have written the prologue?",
+      "correct_answer": "Mike",
       "incorrect_answers": [
-        "Stephen King",
-        "Robert Bloch",
-        "Mary Shelley"
+        "Scout",
+        "Bella",
+        "Nara"
       ]
     },
     {
@@ -78,60 +78,60 @@ const bookQuestions =
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who wrote the novel Fear And Loathing In Las Vegas?",
-      "correct_answer": "Hunter S. Thompson",
+      "question": "Who wrote 'The Alchemist'?",
+      "correct_answer": "Paulo Coelho",
       "incorrect_answers": [
-        "F. Scott Fitzgerald",
-        "Henry Miller",
-        "William S. Burroughs"
+        "Pablo Coelho",
+        "Jorge Bucay",
+        "Jose Luis Borges"
       ]
     },
     {
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Abel Magwitch is a character from which Charles Dickens novel?",
-      "correct_answer": "Great Expectations",
+      "question": "Who wrote 'The Pillars of the Earth'?",
+      "correct_answer": "Ken Follett",
       "incorrect_answers": [
-        "The Pickwick Papers",
-        "Nicholas Nickleby",
-        "Oliver Twist"
+        "Dan Brown",
+        "John Grisham",
+        "Umberto Eco"
       ]
     },
     {
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "'Green Eggs And Ham' is a book by which author?",
-      "correct_answer": "Dr. Seuss",
+      "question": "How much did the most expensive book ever purchased cost?",
+      "correct_answer": "$30.8 million",
       "incorrect_answers": [
-        "Beatrix Potter",
-        "Roald Dahl",
-        "A.A. Milne"
+        "1 million",
+        "100 million",
+        "2.5 million"
       ]
     },
     {
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What was the pen name of novelist, Mary Ann Evans?",
-      "correct_answer": "George Eliot",
+      "question": "In the past, author's names used to be printed on...?",
+      "correct_answer": "They didn't used to be printed on the covers of their books",
       "incorrect_answers": [
-        "George Orwell",
-        "George Bernard Shaw",
-        "George Saunders"
+        "The front cover",
+        "The back cover",
+        "The first page"
       ]
     },
     {
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "The novel Jane Eyre was written by what author? ",
-      "correct_answer": "Charlotte Bronte;",
+      "question": "Franz Kafka never...? ",
+      "correct_answer": "Finished a novel;",
       "incorrect_answers": [
-        "Emily Bront&euml;",
-        "Jane Austen",
-        "Louisa May Alcott"
+        "Had breast milk",
+        "Asumed he was gay",
+        "Got angry"
       ]
     },
     {
@@ -174,12 +174,12 @@ const bookQuestions =
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the name of the protagonist of J.D. Salingers novel Catcher in the Rye?",
-      "correct_answer": "Holden Caulfield",
+      "question": "Who is the author of the well known poem 'Don Juan'?",
+      "correct_answer": "Lord Byron",
       "incorrect_answers": [
-        "Fletcher Christian",
-        "Jay Gatsby",
-        "Randall Flagg"
+        "Geoffrey Chaucer",
+        "W B Yeats",
+        "John Donne"
       ]
     },
     {
@@ -198,12 +198,12 @@ const bookQuestions =
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "According to The Hitchhikers Guide to the Galaxy book, the answer to life, the universe and everything else is...",
-      "correct_answer": "42",
+      "question": "Who wrote 'It in 1986' ",
+      "correct_answer": "Stephen King",
       "incorrect_answers": [
-        "Loving everyone around you",
-        "Chocolate",
-        "Death"
+        "Alfred hitchcock",
+        "Joseph Conrad",
+        "E. L. James"
       ]
     },
     {
@@ -211,7 +211,7 @@ const bookQuestions =
       "type": "multiple",
       "difficulty": "medium",
       "question": "The book 'The Little Prince' was written by...",
-      "correct_answer": "Antoine de Saint-Exup&eacute;ry",
+      "correct_answer": "Antoine de Saint-Exupéry",
       "incorrect_answers": [
         "Miguel de Cervantes Saavedra",
         "Jane Austen",
@@ -222,24 +222,24 @@ const bookQuestions =
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In Margaret Atwood&'s 'The Handmaid&'s Tale', what is Offred&'s real name is implied to be?",
-      "correct_answer": "June",
+      "question": "Which of these characters is not part of the 1977 novel 'The Shining'?",
+      "correct_answer": "Jess (assistant of Dr Edmonds in Sidewinder)",
       "incorrect_answers": [
-        "August",
-        "April",
-        "May"
+        "Andy	(friend of James Torrance in Stovington)",
+        "Lloyd (bartender in the Overlook)",
+        "Mike (Worked at the Overlook)"
       ]
     },
     {
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "In the Magic: The Gathering universe,  the Antiquities, Ice Age, and Alliances expansions take place on which continent?",
-      "correct_answer": "Terisiare",
+      "question": "What of these things is not essential to write a book?",
+      "correct_answer": "Have a big peepee",
       "incorrect_answers": [
-        "Aerona",
-        "Shiv",
-        "Jamuraa"
+        "Find your 'big idea'",
+        "Research your genre",
+        "Set word count goals"
       ]
     }
   ]

@@ -5,12 +5,12 @@ const animalQuestions = {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What was the name of the Ethiopian Wolf before they knew it was related to wolves?",
-      "correct_answer": "Simien Jackel",
+      "question": "How many hearts does a jelly fish have?",
+      "correct_answer": "None",
       "incorrect_answers": [
-        "Ethiopian Coyote",
-        "Amharic Fox",
-        "Canis Simiensis"
+        "One",
+        "Two",
+        "Three"
       ]
     },
     {
@@ -53,12 +53,12 @@ const animalQuestions = {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the scientific name for the Polar Bear?",
-      "correct_answer": "Ursus Maritimus",
+      "question": "What is the mammal with the longest orgasm on record, lasting between 30-90 minutes?",
+      "correct_answer": "Domestic Pig",
       "incorrect_answers": [
-        "Polar Bear",
-        "Ursus Spelaeus",
-        "Ursus Arctos"
+        "Chimpazee",
+        "Rhino",
+        "Whale"
       ]
     },
     {
@@ -77,60 +77,60 @@ const animalQuestions = {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What scientific suborder does the family Hyaenidae belong to?",
-      "correct_answer": "Feliformia",
+      "question": "A rhinoceros' horn is made of...?",
+      "correct_answer": "Hair",
       "incorrect_answers": [
-        "Haplorhini",
-        "Caniformia",
-        "Ciconiiformes"
+        "Fat",
+        "Bone",
+        "Dirt"
       ]
     },
     {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What scientific family does the Aardwolf belong to?",
-      "correct_answer": "Hyaenidae",
+      "question": "What animal can't jump?",
+      "correct_answer": "Elephant",
       "incorrect_answers": [
-        "Canidae",
-        "Felidae",
-        "Eupleridae"
+        "Spider",
+        "Eagle",
+        "Shark"
       ]
     },
     {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What do you call a baby bat?",
-      "correct_answer": "Pup",
+      "question": "What do you call a baby sheep?",
+      "correct_answer": "Lamb",
       "incorrect_answers": [
-        "Cub",
-        "Chick",
-        "Kid"
+        "Lamby",
+        "Puppy",
+        "Little sheep"
       ]
     },
     {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which animal was part of an Russian domestication experiment in 1959?",
-      "correct_answer": "Foxes",
+      "question": "What was the first animal domesticated by humans?",
+      "correct_answer": "Goats",
       "incorrect_answers": [
         "Pigeons",
-        "Bears",
-        "Alligators"
+        "Sheep",
+        "Dogs"
       ]
     },
     {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What is the Gray Wolf's scientific name?",
-      "correct_answer": "Canis Lupus",
+      "question": "What animals can not change colour?",
+      "correct_answer": "flies",
       "incorrect_answers": [
-        "Canis Aureus",
-        "Canis Latrans",
-        "Canis Lupus Lycaon"
+        "Chameleon",
+        "Pacific Tree Frog",
+        "Squid"
       ]
     },
     {
@@ -149,36 +149,36 @@ const animalQuestions = {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the name of the family that the domestic cat is a member of?",
-      "correct_answer": "Felidae",
+      "question": "What's the biggest dog in the world?",
+      "correct_answer": "English Mastiff",
       "incorrect_answers": [
-        "Felinae",
-        "Felis",
-        "Cat"
+        "Great Dane",
+        "Scottish Deerhound",
+        "Saint Bernard"
       ]
     },
     {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What is the name of the copper-rich protein that creates the blue blood in the Antarctic octopus?",
-      "correct_answer": "Hemocyanin",
+      "question": "Flies can taste with their...?",
+      "correct_answer": "Feet",
       "incorrect_answers": [
-        "Cytochrome",
-        "Iron",
-        "Methionine"
+        "Wings",
+        "Abdomen",
+        "Eyes"
       ]
     },
     {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which species is a mountain chicken?",
-      "correct_answer": "Frog",
+      "question": "There are actually more chickens on earth than people, buy how many?",
+      "correct_answer": "25 billion",
       "incorrect_answers": [
-        "Chicken",
-        "Horse",
-        "Fly"
+        "20 billion",
+        "10 billion",
+        "8 billion"
       ]
     },
     {
@@ -197,47 +197,47 @@ const animalQuestions = {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the common term for bovine spongiform encephalopathy (BSE)?",
-      "correct_answer": "Mad Cow disease",
+      "question": "What do you call a female peacock?",
+      "correct_answer": "Peahens",
       "incorrect_answers": [
-        "Weil&#039;s disease",
-        "Milk fever",
-        "Foot-and-mouth disease"
+        "Peacock",
+        "Peacock female",
+        "Peapussy"
       ]
     },
     {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What is the name for a male bee that comes from an unfertilized egg?",
-      "correct_answer": "Drone",
+      "question": "Which of these animals don't kill their sex partners?",
+      "correct_answer": "Lions",
       "incorrect_answers": [
-        "Soldier",
-        "Worker",
-        "Male"
+        "Octopuses",
+        "Mantises",
+        "Black Widow Spiders"
       ]
     },
     {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the name of a rabbit's abode?",
-      "correct_answer": "Burrow",
+      "question": "What do sea otters do when they sleep in order to not drift apart?",
+      "correct_answer": "Hold hands",
       "incorrect_answers": [
-        "Nest",
-        "Den",
-        "Dray"
+        "Wear a harness",
+        "Hold feet",
+        "Be on top of each other"
       ]
     },
     {
       "category": "Animals",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Decapods are an order of ten-footed crustaceans.  Which of these are NOT decapods?",
-      "correct_answer": "Krill",
+      "question": "Which of these animals is not a crustacean?",
+      "correct_answer": "Oyster",
       "incorrect_answers": [
         "Lobsters",
-        "Shrimp",
+        "Crayfish",
         "Crabs"
       ]
     }

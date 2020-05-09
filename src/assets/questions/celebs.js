@@ -6,12 +6,12 @@ const celebQuestions =
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Named after a character he played in a 1969 film, what is the name of the ski resort in Utah that Robert Redford bought in 1968?",
-      "correct_answer": "Sundance",
+      "question": "What's the real name of the rapper Cardi B?",
+      "correct_answer": "Belcalis Marlenis Almanzar",
       "incorrect_answers": [
-        "Woodward",
-        "Turner",
-        "Booker"
+        "Belcalis Maria Almanzar",
+        "Cardigan Becalis",
+        "Belcalis Marlenis Gomez"
       ]
     },
     {
@@ -30,24 +30,24 @@ const celebQuestions =
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Donald J. Trump's Middle Name is...",
-      "correct_answer": "John",
+      "question": "In what American city was Christina Aguilera denied a microphone when the she asked to sing?",
+      "correct_answer": "New Orleans",
       "incorrect_answers": [
-        "Jeff",
-        "Jerald",
-        "Jason"
+        "Minneapolis",
+        "New York",
+        "Las Vegas"
       ]
     },
     {
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which of these people is NOT a part of the Internet comedy group Mega64?",
-      "correct_answer": "Jon Jafari",
+      "question": "Who is the most famous British youtuber?",
+      "correct_answer": "Felix Kjellberg (PewDiePie)",
       "incorrect_answers": [
-        "Rocco Botte",
-        "Derrick Acosta",
-        "Shawn Chatfield"
+        "Rubén Doblas (El Rubius)",
+        "Anastasia Radzinskaya (Like Nastya)",
+        "Germán Alejandro (HolaSoyGerman)"
       ]
     },
     {
@@ -90,36 +90,36 @@ const celebQuestions =
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "How tall is Tom Cruise?",
-      "correct_answer": "5'7",
+      "question": "What celebrity did Andy always fancy?",
+      "correct_answer": "Jack Black",
       "incorrect_answers": [
-        "5'9",
-        "5'4",
-        "5'5"
+        "James Franco",
+        "Miles Davis",
+        "Antonio Banderas"
       ]
     },
     {
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Gwyneth Paltrow has a daughter named...?",
-      "correct_answer": "Apple",
+      "question": "What was the name of the guy that Ariana Grande almost married?",
+      "correct_answer": "Pete Davidson",
       "incorrect_answers": [
-        "Lily",
-        "French",
-        "Dakota"
+        "Mac Miller",
+        "Ricky Alvarez",
+        "Big Sean"
       ]
     },
     {
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "If he was still alive, in what year would Elvis Presley celebrate his 100th birthday?",
-      "correct_answer": "2035",
+      "question": "What's the name of Justin Bieber's current wife?",
+      "correct_answer": "Hailey Baldwin",
       "incorrect_answers": [
-        "2030",
-        "2040",
-        "2045"
+        "Selena Gomez",
+        "Ariana Grande",
+        "Demi Lovato"
       ]
     },
     {
@@ -138,36 +138,36 @@ const celebQuestions =
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Where was Kanye West born?",
-      "correct_answer": "Atlanta, Georgia",
+      "question": "What's Jim Carrey's last film?",
+      "correct_answer": "Sonic the Hedgehog",
       "incorrect_answers": [
-        "Chicago, Illinois",
-        "Los Angeles, California",
-        "Detroit, Michigan"
+        "Dumb and Dumber To",
+        "The Number 23",
+        "Mr. Popper's Penguins"
       ]
     },
     {
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What was the name of Marilyn Monroe's first husband?",
-      "correct_answer": "James Dougherty",
+      "question": "Who sings 'I kissed a girl and I liked it...'?",
+      "correct_answer": "Katy Perry",
       "incorrect_answers": [
-        "Joe Dimaggio",
-        "Kirk Douglas",
-        "Arthur Miller"
+        "Lady Gaga",
+        "Adele",
+        "Taylor Swift"
       ]
     },
     {
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Nikki Diamond portrayed which Gladiator in the 1992 TV show 'Gladiators'?",
-      "correct_answer": "Scorpio",
+      "question": "Who plays the character Thor in the Marvel film?",
+      "correct_answer": "Chris Hemsworth",
       "incorrect_answers": [
-        "Jet",
-        "Nightshade",
-        "Falcon"
+        "Jeff Daniels",
+        "Robert Downey Jr.",
+        "Chris Evans"
       ]
     },
     {
@@ -186,12 +186,12 @@ const celebQuestions =
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Who is 'James Rolfe' better known as?",
-      "correct_answer": "The Angry Video Game Nerd",
+      "question": "What's the name of the actress that plays 'Robin' in How I Met Your Mother?",
+      "correct_answer": "Cobie Smulders",
       "incorrect_answers": [
-        "TotalBiscuit",
-        "PeanutButterGamer",
-        "PewDiePie"
+        "Alyson Hannigan",
+        "Sarah Chalke",
+        "Sandra Bullock"
       ]
     },
     {
@@ -210,36 +210,36 @@ const celebQuestions =
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "By which name is Ramon Estevez better known as?",
-      "correct_answer": "Martin Sheen",
+      "question": "Which of these names are not part of the Kardasian family?",
+      "correct_answer": "Lilly",
       "incorrect_answers": [
-        "Charlie Sheen",
-        "Ramon Sheen",
-        "Emilio Estevez"
+        "kris",
+        "Kim",
+        "Khloé"
       ]
     },
     {
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Billy Herrington is from which US state?",
-      "correct_answer": "New York",
+      "question": "Which of these celbs is acrophobic, meaning she is afraid of heights.?",
+      "correct_answer": "Nicki Minaj",
       "incorrect_answers": [
-        "Arizona",
-        "California",
-        "Georgia"
+        "Rita Ora",
+        "kim kardashian",
+        "Billie Eilish"
       ]
     },
     {
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In 2014, this new top 100 rapper who featured in 'Computers' and 'Body Dance' was arrested in a NYPD sting for murder.",
-      "correct_answer": "Bobby Shmurda",
+      "question": "What's the name of the song that Billy Eillish wrote for James Bond",
+      "correct_answer": "No Time To Die",
       "incorrect_answers": [
-        "DJ Snake",
-        "Swae Lee",
-        "Young Thug"
+        "Bad Guy",
+        "No Time to Run",
+        "Everything I wanted"
       ]
     }
   ]
