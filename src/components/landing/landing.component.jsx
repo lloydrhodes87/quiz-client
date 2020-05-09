@@ -4,7 +4,7 @@ import Login from '../login/login.component';
 import io from 'socket.io-client'
 import ChooseTopic from '../chooseTopics/choose-topic.component';
 
-const socket = io('http://localhost:4000/', {
+const socket = io('https://haines-quiz.herokuapp.com/', {
     path: '/socket.io',
     transports: ['websocket'],
     secure: true
