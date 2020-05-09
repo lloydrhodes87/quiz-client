@@ -212,6 +212,7 @@ const MainGame = ({
                 user.score = user.score + 1;
             }
             return user;
+            
         })
             setDisableButtons(true)
             await socket.emit('set-user-scores', JSON.stringify({answeredBy: username, updated}))
