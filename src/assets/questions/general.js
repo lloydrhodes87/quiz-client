@@ -140,11 +140,11 @@ const generalQuestions =
       "type": "multiple",
       "difficulty": "easy",
       "question": "The New York Times slogan is, 'All the News That's Fit to",
-      "correct_answer": "Print",
+      "correct_answer": "Print'",
       "incorrect_answers": [
-        "Digest",
-        "Look",
-        "Read"
+        "Digest'",
+        "Look'",
+        "Read'"
       ]
     },
     {

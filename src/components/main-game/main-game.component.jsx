@@ -288,7 +288,7 @@ const MainGame = ({
                       }
                       return (
                         <div 
-                          key={answer}
+                          key={index}
                           className={`class-${index}`}
                         >
                           <button disabled={disableButtons}

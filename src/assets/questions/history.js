@@ -199,11 +199,11 @@ const historyQuestions =
       "category": "History",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "The minigun was designed in 1960 by which manufacturer.",
+      "question": "The minigun was designed in 1960 by which manufacturer?",
       "correct_answer": "General Electric",
       "incorrect_answers": [
         "Colt Firearms",
-        "Heckler &amp; Koch",
+        "Heckler & Koch",
         "Sig Sauer"
       ]
     },

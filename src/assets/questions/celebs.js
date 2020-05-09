@@ -234,7 +234,7 @@ const celebQuestions =
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What's the name of the song that Billy Eillish wrote for James Bond",
+      "question": "What's the name of the song that Billy Eillish wrote for James Bond?",
       "correct_answer": "No Time To Die",
       "incorrect_answers": [
         "Bad Guy",

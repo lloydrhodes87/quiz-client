@@ -178,9 +178,9 @@ const artQuestions =
       "question": "Oil painting is made of...?",
       "correct_answer": "Dry powder pigments with selected refined linseed oil",
       "incorrect_answers": [
-        "Powder pigments with extra virging olive oil from Spain",
+        "Powder pigments with extra virgin olive oil from Spain",
         "Wet powder pigments with selected refined linseed oil",
-        "Dry parpika with selected refined linseed oil"
+        "Dry paprika with selected refined linseed oil"
       ]
     },
     {
