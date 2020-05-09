@@ -89,14 +89,14 @@
   .class-0 {
     background-color: #7ED957;
     width: 50%;
-    height: 80px;
+    min-height: 80px;
     display: flex;
     align-items: center;
   }
   .class-1 {
     background-color: #FFBD5A;
     width: 50%;
-    height: 80px;
+    min-height: 80px;
     display: flex;
     align-items: center;
   
@@ -104,14 +104,14 @@
   .class-2 {
     background-color: #39B6FF;
     width: 50%;
-    height: 80px;
+    min-height: 80px;
     display: flex;
     align-items: center;
   }
   .class-3 {
     background-color: #FF5757;
     width: 50%;
-    height: 80px;
+    min-height: 80px;
     display: flex;
     align-items: center;
   }
@@ -129,6 +129,12 @@
   }
   .disabled {
     background-color: #c0c0c080;
+  }
+  .green {
+    border: 3px solid rgb(91, 247, 91);
+  }
+  .red {
+    border: 3px solid rgb(255, 72, 72);
   }
 
   

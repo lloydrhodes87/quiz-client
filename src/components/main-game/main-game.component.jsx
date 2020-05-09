@@ -28,6 +28,7 @@ const MainGame = ({
     const [gameState, setGameState] = useState('play')
     const [showScores, setShowScores] = useState(false)
     const [winnerList, setWinnerList] = useState([])
+    const [showCorrectAnswer, setShowCorrectAnswer] = useState(false)
     const [gameMusicAudio] = useState(new Audio(gameMusicUrl));
     const [winMusicAudio] = useState(new Audio(winMusicUrl))
 
@@ -39,12 +40,9 @@ const MainGame = ({
     const questionNumRef = useCallback(node => {
       if (node !== null) {
         setQuestionNum(node);
+        setShowCorrectAnswer(false)
       }
     }, []);
-
-
-
-
   
     function useInterval(callback, delay) {
       const savedCallback = useRef();
@@ -99,11 +97,11 @@ const MainGame = ({
         socket.on('user-scores', (scores) => {
             const parsed = JSON.parse(scores)
             setUserScores(parsed.updated)
-            setDisableButtons(false)
+            // setDisableButtons(false)
 
         })
         return () => { socket.off('user-scores') }
-    }, [setUserScores, setDisableButtons, socket])
+    }, [setUserScores, socket])
 
 
     useEffect(() => {
@@ -124,6 +122,8 @@ const MainGame = ({
             if (questionNum <= 19) {
                 
               setQuestionNum(questionNum+=1)
+              setShowCorrectAnswer(false)
+
             } else {
                 setGameState('pause')
                 setShowScores(true)
@@ -205,6 +205,7 @@ const MainGame = ({
 
 
     const handleAnswer = async (answer) => {
+      
         if (answer === correctAnswer) {
           const updated = userScores.map(user => {
             if (username === user.usermame) {
@@ -212,12 +213,13 @@ const MainGame = ({
             }
             return user;
         })
-          
+            setDisableButtons(true)
             await socket.emit('set-user-scores', JSON.stringify({answeredBy: username, updated}))
 
-            await socket.emit('set-timer', 20)
+            // await socket.emit('set-timer', 30)
             await socket.emit('game-state', 'play')
-            await socket.emit('question-number', questionNum + 1)
+            // await socket.emit('question-number', questionNum + 1)
+            setShowCorrectAnswer(true)
             
 
             //
@@ -291,7 +293,9 @@ const MainGame = ({
                         >
                           <button disabled={disableButtons}
                             onClick={() => handleAnswer(answer)}
-                            className={disableButtons ? 'disabled' : ''}>
+                            className={disableButtons ? 'disabled' : ''}
+                            // className={showCorrectAnswer ? 'green': ''}
+                            >
                             {letter()}
                             {answer} 
                           </button>
