@@ -43,24 +43,24 @@ const cartoonQuestions =
       "category": "Entertainment: Cartoon & Animations",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these is NOT a Disney cartoon character?",
-      "correct_answer": "Daffy Duck",
+      "question": "Out of the following, what is generally considered to be the most low brow cartoon?",
+      "correct_answer": "Rick & Morty",
       "incorrect_answers": [
-        "Donald Duck",
-        "Daisy Duck",
-        "Scrooge McDuck"
+        "Peppa Pig",
+        "Rugrats",
+        "The Smurfs"
       ]
     },
     {
       "category": "Entertainment: Cartoon & Animations",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "When did the last episode of 'Futurama' air?",
-      "correct_answer": "September 4, 2013",
+      "question": "In Taz, what is taz's fathers favourite drink?",
+      "correct_answer": "Orange Juice",
       "incorrect_answers": [
-        "December 25, 2010",
-        "March 28, 1999",
-        "On Going"
+        "Milk",
+        "Pepsi",
+        "Milshake"
       ]
     },
     {
@@ -79,72 +79,72 @@ const cartoonQuestions =
       "category": "Entertainment: Cartoon & Animations",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which of these is not a real character in the cartoon series My Little Pony: Friendship is Magic?",
-      "correct_answer": "Rose Marene",
+      "question": "How many cars are in wacky races?",
+      "correct_answer": "11",
       "incorrect_answers": [
-        "Pinkie Pie",
-        "Maud Pie",
-        "Rainbow Dash"
+        "9",
+        "10",
+        "12"
       ]
     },
     {
       "category": "Entertainment: Cartoon & Animations",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "The stop motion comedy show 'Robot Chicken' was created by which of the following?",
-      "correct_answer": "Seth Green",
+      "question": "How many episodes of the Simpsons are there?",
+      "correct_answer": "639",
       "incorrect_answers": [
-        "Seth MacFarlane",
-        "Seth Rogen",
-        "Seth Rollins"
+        "623",
+        "743",
+        "697"
       ]
     },
     {
       "category": "Entertainment: Cartoon & Animations",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of the following is not a Flintstones character?",
-      "correct_answer": "Lord Rockingham IX",
+      "question": "What was the first disney film?",
+      "correct_answer": "Snow White and the Seven Dwarfs",
       "incorrect_answers": [
-        "Rockhead Slate",
-        "The Great Gazoo",
-        "Barney Rubble"
+        "Sleeping beauty",
+        "Bambi",
+        "Fantasia"
       ]
     },
     {
       "category": "Entertainment: Cartoon & Animations",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In 'The Amazing World of Gumball', who is the principal of Elmore Junior High?",
-      "correct_answer": "Principal Brown",
+      "question": "In what year did the first episode of The Simpsons air?",
+      "correct_answer": "1989",
       "incorrect_answers": [
-        "Principal Small",
-        "Principal Brawn",
-        "Principal Simeon"
+        "1988",
+        "1990",
+        "1992"
       ]
     },
     {
       "category": "Entertainment: Cartoon & Animations",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the show 'Steven Universe', who are the main two employees of The Big Donut?",
-      "correct_answer": "Sadie and Lars",
+      "question": "How was Chef killed off in South Park?",
+      "correct_answer": "All of these",
       "incorrect_answers": [
-        "Steven and James",
-        "Erik and Julie",
-        "Bob and May"
+        "Struck by lightning",
+        "Mauled by a mountain lion",
+        "Eaten by a bear"
       ]
     },
     {
       "category": "Entertainment: Cartoon & Animations",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "In the show 'Foster's Home For Imaginary Friends', which character had an obsession with basketball?",
-      "correct_answer": "Wilt",
+      "question": "What year did Daria first air?",
+      "correct_answer": "1997",
       "incorrect_answers": [
-        "Coco",
-        "Mac",
-        "Cheese"
+        "1994",
+        "1999",
+        "1995"
       ]
     },
     {
@@ -163,12 +163,12 @@ const cartoonQuestions =
       "category": "Entertainment: Cartoon & Animations",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Which Sanrio character was introduced in 1996?",
-      "correct_answer": "Pompompurin",
+      "question": "Which of these voices has not appeared in the Simpsons?",
+      "correct_answer": "Jimmy Page",
       "incorrect_answers": [
-        "My Melody",
-        "Badtz-Maru",
-        "Kerropi"
+        "Patrick Stewart",
+        "Steven Tyler",
+        "Sting"
       ]
     },
     {
@@ -199,12 +199,12 @@ const cartoonQuestions =
       "category": "Entertainment: Cartoon & Animations",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Benny, Brain, Fancy-Fancy, Spook and Choo-Choo were known associates of what Hanna Barbera cartoon character?",
-      "correct_answer": "Top Cat",
+      "question": "Who voiced Mufasa in the Lion King?",
+      "correct_answer": "James Earl Jones",
       "incorrect_answers": [
-        "Yogi Bear",
-        "Snagglepuss",
-        "Scooby-Doo"
+        "Samuel L Jackson",
+        "Lawrence Fishburn",
+        "Morgan Freeman"
       ]
     },
     {

@@ -3,243 +3,243 @@ const mikeQuestions =
   "response_code": 0,
   "results": [
     {
-      "category": "Entertainment: Books",
+      "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who wrote Harry Potter?",
-      "correct_answer": "J.K. Rowling",
+      "question": "Prior to its redevelopment, Manchester’s St Peter’s Square was home to a small garden; what was its name?",
+      "correct_answer": "Manchester Peace Garden",
       "incorrect_answers": [
-        "J.R.R. Tolkien",
-        "Terry Pratchett",
-        "Daniel Radcliffe"
+        "Manchester Central Garden",
+        "The Elizabeth Gaskell Gardens",
+        "The War Memorial Garden"
       ]
     },
     {
-      "category": "Entertainment: Books",
+      "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "George Orwell wrote this book, which is often considered a statement on government oversight.",
-      "correct_answer": "1984",
+      "question": "Which band did the following people all play in: Jimmy Page, Jeff Beck, Eric Clapton?",
+      "correct_answer": "The Yardbirds",
       "incorrect_answers": [
-        "The Old Man and the Sea",
-        "Catcher and the Rye",
-        "To Kill a Mockingbird"
+        "Small Faces",
+        "Cream",
+        "The Bluesbreakers"
       ]
     },
     {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Which author and poet famously wrote the line, 'The female of the species is more deadly than the male'?",
-      "correct_answer": "Rudyard Kipling",
-      "incorrect_answers": [
-        "Edgar Allan Poe",
-        "William Shakespeare",
-        "William Wordsworth"
-      ]
-    },
-    {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "In the Beatrix Potter books, what type of animal is Tommy Brock?",
-      "correct_answer": "Badger",
-      "incorrect_answers": [
-        "Fox",
-        "Frog",
-        "Rabbit"
-      ]
-    },
-    {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Who wrote the 1967 horror novel Rosemary's Baby?",
-      "correct_answer": "Ira Levin",
-      "incorrect_answers": [
-        "Stephen King",
-        "Robert Bloch",
-        "Mary Shelley"
-      ]
-    },
-    {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "What position does Harry Potter play in Quidditch?",
-      "correct_answer": "Seeker",
-      "incorrect_answers": [
-        "Beater",
-        "Chaser",
-        "Keeper"
-      ]
-    },
-    {
-      "category": "Entertainment: Books",
+      "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who wrote the novel Fear And Loathing In Las Vegas?",
-      "correct_answer": "Hunter S. Thompson",
+      "question": "What is Andy’s favourite alcohol percentage for a beer?",
+      "correct_answer": "4%",
       "incorrect_answers": [
-        "F. Scott Fitzgerald",
-        "Henry Miller",
-        "William S. Burroughs"
+        "7%",
+        "5.5%",
+        "2.8%"
       ]
     },
     {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "Abel Magwitch is a character from which Charles Dickens novel?",
-      "correct_answer": "Great Expectations",
-      "incorrect_answers": [
-        "The Pickwick Papers",
-        "Nicholas Nickleby",
-        "Oliver Twist"
-      ]
-    },
-    {
-      "category": "Entertainment: Books",
+      "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "'Green Eggs And Ham' is a book by which author?",
-      "correct_answer": "Dr. Seuss",
+      "question": "What was the first date of the lockdown?",
+      "correct_answer": "23rd March",
       "incorrect_answers": [
-        "Beatrix Potter",
-        "Roald Dahl",
-        "A.A. Milne"
+        "1st April",
+        "17th March",
+        "28th March"
       ]
     },
     {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "What was the pen name of novelist, Mary Ann Evans?",
-      "correct_answer": "George Eliot",
-      "incorrect_answers": [
-        "George Orwell",
-        "George Bernard Shaw",
-        "George Saunders"
-      ]
-    },
-    {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "hard",
-      "question": "The novel Jane Eyre was written by what author? ",
-      "correct_answer": "Charlotte Bronte;",
-      "incorrect_answers": [
-        "Emily Bront&euml;",
-        "Jane Austen",
-        "Louisa May Alcott"
-      ]
-    },
-    {
-      "category": "Entertainment: Books",
+      "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who was the author of the 1954 novel, Lord of the Flies?",
-      "correct_answer": "William Golding",
+      "question": "Why is the sky blue?",
+      "correct_answer": "Because the gases in the air scatter sunlight and blue light is scattered more than other types of light due to its shorter wave length",
       "incorrect_answers": [
-        "Stephen King",
-        "F. Scott Fitzgerald",
-        "Hunter Fox"
+        "Because the air contains mostly nitrogen which is blue in large enough volumes",
+        "Because of the reflective properties of certain particles in the air which reflect the ocean",
+        "Because the radiation from the Sun’s rays cause the electrons in the gases in the Earth’s atmosphere to vibrate, giving off a blue shimmer"
       ]
     },
     {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "J.K. Rowling completed Harry Potter and the Deathly Hallows in which hotel in Edinburgh, Scotland?",
-      "correct_answer": "The Balmoral",
-      "incorrect_answers": [
-        "The Dunstane Hotel",
-        "Hotel Novotel",
-        "Sheraton Grand Hotel & Spa"
-      ]
-    },
-    {
-      "category": "Entertainment: Books",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "The title of Adolf Hitler's autobiography 'Mein Kampf'; is what when translated to English?",
-      "correct_answer": "My Struggle",
-      "incorrect_answers": [
-        "My Hatred",
-        "My Sadness",
-        "My Desire"
-      ]
-    },
-    {
-      "category": "Entertainment: Books",
+      "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the name of the protagonist of J.D. Salingers novel Catcher in the Rye?",
-      "correct_answer": "Holden Caulfield",
+      "question": "Brass is an alloy of which metals?",
+      "correct_answer": "Copper and zinc",
       "incorrect_answers": [
-        "Fletcher Christian",
-        "Jay Gatsby",
-        "Randall Flagg"
+        "Copper and iron",
+        "Copper and lead",
+        "Copper and aluminium"
       ]
     },
     {
-      "category": "Entertainment: Books",
+      "category": "Entertainment: Music",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What is the title of the first Sherlock Holmes book by Arthur Conan Doyle?",
-      "correct_answer": "A Study in Scarlet",
+      "question": "What is Madonna’s real first name?",
+      "correct_answer": "Madonna",
       "incorrect_answers": [
-        "The Sign of the Four",
-        "A Case of Identity",
-        "The Doings of Raffles Haw"
+        "Ruth",
+        "Juliet",
+        "Sonya"
       ]
     },
     {
-      "category": "Entertainment: Books",
+      "category": "Entertainment: Music",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "According to The Hitchhikers Guide to the Galaxy book, the answer to life, the universe and everything else is...",
-      "correct_answer": "42",
+      "difficulty": "easy",
+      "question": "Who won the first World Cup?",
+      "correct_answer": "Uruguay",
       "incorrect_answers": [
-        "Loving everyone around you",
-        "Chocolate",
-        "Death"
+        "Argentina",
+        "Paraguay",
+        "Brazil"
       ]
     },
     {
-      "category": "Entertainment: Books",
+      "category": "Entertainment: Music",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "The book 'The Little Prince' was written by...",
-      "correct_answer": "Antoine de Saint-Exup&eacute;ry",
+      "difficulty": "easy",
+      "question": "What’s my favourite type of fruit?",
+      "correct_answer": "Pineapple",
       "incorrect_answers": [
-        "Miguel de Cervantes Saavedra",
-        "Jane Austen",
-        "F. Scott Fitzgerald"
+        "Orange",
+        "Apple",
+        "Passion Fruit"
       ]
     },
     {
-      "category": "Entertainment: Books",
+      "category": "Entertainment: Music",
       "type": "multiple",
-      "difficulty": "hard",
-      "question": "In Margaret Atwood&'s 'The Handmaid&'s Tale', what is Offred&'s real name is implied to be?",
-      "correct_answer": "June",
+      "difficulty": "easy",
+      "question": "What is the best form of defence?",
+      "correct_answer": "Attack",
       "incorrect_answers": [
-        "August",
-        "April",
-        "May"
+        "Defence",
+        "Never going out",
+        "The pork sword"
       ]
     },
     {
-      "category": "Entertainment: Books",
+      "category": "Entertainment: Music",
       "type": "multiple",
-      "difficulty": "hard",
-      "question": "In the Magic: The Gathering universe,  the Antiquities, Ice Age, and Alliances expansions take place on which continent?",
-      "correct_answer": "Terisiare",
+      "difficulty": "easy",
+      "question": "In which year did the TV show Rick & Morty first grace our screens with its unwelcome presence?",
+      "correct_answer": "2013",
       "incorrect_answers": [
-        "Aerona",
-        "Shiv",
-        "Jamuraa"
+        "2015",
+        "2012",
+        "2014"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In the song El Condor Pasa made famous by Simon and Garfunkel, what does Paul Simon sing he would rather be then a snail?",
+      "correct_answer": "A sparrow",
+      "incorrect_answers": [
+        "He doesn't sing it, Art Garfunkel does",
+        "A spider",
+        "A snake"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What's the best way to impress someone on Tinder?",
+      "correct_answer": "Bake a big cake decorated with characters from your favourite film with icing and set it as your third profile picture",
+      "incorrect_answers": [
+        "Google 'best Tinder opening lines' and use one of those",
+        "Have photos taken of yourself with an assortment of sedated wild animals (the more dangerous the better)",
+        "Wait 2 days after you match then send a template message, and if they send a good reply then wait 1 day and send a short reply back followed by a long reply, but if they send a short reply to your first message then apologise for your first message as it wasn't up to standard and if they don't reply to that apologise for apologising"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "In what year did Greggs stop selling meat & potato pasties?",
+      "correct_answer": "2019",
+      "incorrect_answers": [
+        "2020",
+        "2018",
+        "2017"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the main flavour of the tasty French drink, pastis?",
+      "correct_answer": "Aniseed",
+      "incorrect_answers": [
+        "Baguette",
+        "Raspberry",
+        "Grape"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the main type of monkey I worked with in South America?",
+      "correct_answer": "Capuchin",
+      "incorrect_answers": [
+        "Macaque",
+        "Tamarin",
+        "Spider monkey"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What is the best form of flattery?",
+      "correct_answer": "'Mistakenly' sending someone you like a text meant for a friend in which you say nice things about them and then message back apologising and saying you're really embarrassed, that text was obviously meant for someone else haha",
+      "incorrect_answers": [
+        "Telling someone you love them on the first date",
+        "Telling someone they have nice eyes or hair or mouth or whatever",
+        "Messaging someone constantly even when they don't reply"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of the following trees is a hardwood?",
+      "correct_answer": "Oak",
+      "incorrect_answers": [
+        "Pine",
+        "Spruce",
+        "Yew"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Who is the best of the following Simpsons characters?",
+      "correct_answer": "Hans Moleman",
+      "incorrect_answers": [
+        "Troy McClure",
+        "Rod Flanders",
+        "Reverend Lovejoy"
+      ]
+    },
+    {
+      "category": "Entertainment: Music",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which of these is not the title of a well-known book?",
+      "correct_answer": "Alice in Wonderland",
+      "incorrect_answers": [
+        "Gravity's Rainbow",
+        "The Last of the Mohicans",
+        "Mrs Dalloway"
       ]
     }
   ]

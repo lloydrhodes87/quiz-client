@@ -35,7 +35,8 @@ const Game = ({
     username,
     allUsers,
     socket,
-    
+    gameMusicUrl,
+    winMusicUrl
 }) => {
     const [topicState, setTopicState] = useState(null);
     const [avatar, setAvatar] = useState('');
@@ -147,6 +148,7 @@ const Game = ({
         case 'TV':
             return tvQuestions;
         case 'Mike':
+        
             return mikeQuestions;
       }
     }
@@ -236,6 +238,8 @@ const Game = ({
                     socket={socket}
                     topicImage={topicImage}
                     allAvatars={allAvatars}
+                    gameMusicUrl={gameMusicUrl}
+                    winMusicUrl={winMusicUrl}
                   />
             } </div>
         } </div>
