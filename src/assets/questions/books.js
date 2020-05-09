@@ -115,7 +115,7 @@ const bookQuestions =
       "type": "multiple",
       "difficulty": "medium",
       "question": "In the past, author's names used to be printed on...?",
-      "correct_answer": "They didn't used to be printed on the covers of their books",
+      "correct_answer": "They didn't used to be printed anywhere",
       "incorrect_answers": [
         "The front cover",
         "The back cover",
@@ -138,7 +138,7 @@ const bookQuestions =
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Who was the author of the 1954 novel, Lord of the Flies?",
+      "question": "Who was the author of the 1954 novel 'Lord of the Flies'?",
       "correct_answer": "William Golding",
       "incorrect_answers": [
         "Stephen King",
@@ -198,7 +198,7 @@ const bookQuestions =
       "category": "Entertainment: Books",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Who wrote 'It in 1986' ",
+      "question": "Who wrote 'It' in 1986",
       "correct_answer": "Stephen King",
       "incorrect_answers": [
         "Alfred hitchcock",
@@ -237,9 +237,9 @@ const bookQuestions =
       "question": "What of these things is not essential to write a book?",
       "correct_answer": "Have a big peepee",
       "incorrect_answers": [
-        "Find your 'big idea'",
-        "Research your genre",
-        "Set word count goals"
+        "Finding your 'big idea'",
+        "Researching your genre",
+        "Setting word count goals"
       ]
     }
   ]
