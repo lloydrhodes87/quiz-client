@@ -31,12 +31,12 @@ const artQuestions =
       "category": "Art",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What did Ingrid famously compared something to be that it did in fact turned to be?'",
+      "question": "At the Tate modern, what did Ingrid famously compare something to, that it did in fact turn to be?'",
       "correct_answer": "Shit",
       "incorrect_answers": [
         "Pasta",
         "A fridge-freezer",
-        "A painted of a person"
+        "A painting of a person"
       ]
     },
     {
@@ -91,11 +91,11 @@ const artQuestions =
       "category": "Art",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Who painted the famoues painting 'The Scream'?",
+      "question": "Who painted the famous painting 'The Scream'?",
       "correct_answer": "Edvard Munch",
       "incorrect_answers": [
-        "Edvard Scissorhands",
-        "Edvard Satie",
+        "Edward Scissorhands",
+        "Eric Satie",
         "None of these ones"
       ]
     },
@@ -223,7 +223,7 @@ const artQuestions =
       "category": "Art",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "At what age and why did Fridah Khalo died?",
+      "question": "At what age and why did Fridah Khalo die?",
       "correct_answer": "47, pulmonary embolism",
       "incorrect_answers": [
         "30, car accident",
@@ -235,7 +235,7 @@ const artQuestions =
       "category": "Art",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "What style did René Magritte painted?",
+      "question": "What style did René Magritte paint?",
       "correct_answer": "Surrealism",
       "incorrect_answers": [
         "Romanticism",

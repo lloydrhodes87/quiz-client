@@ -199,7 +199,7 @@ const tvQuestions =
       "category": "Entertainment: Television",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Who's completly obssesed with and can't sleep at night thinking of the series White Collar?",
+      "question": "Who's completely obssesed with and can't sleep at night thinking of the series White Collar?",
       "correct_answer": "Lloyd Rhodes",
       "incorrect_answers": [
         "John Appleby",

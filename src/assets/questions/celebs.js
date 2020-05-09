@@ -138,7 +138,7 @@ const celebQuestions =
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "What's Jim Carrey's last film?",
+      "question": "What's Jim Carrey's latest film?",
       "correct_answer": "Sonic the Hedgehog",
       "incorrect_answers": [
         "Dumb and Dumber To",
@@ -210,7 +210,7 @@ const celebQuestions =
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "Which of these names are not part of the Kardasian family?",
+      "question": "Which of these names are not part of the Kardashian family?",
       "correct_answer": "Lilly",
       "incorrect_answers": [
         "kris",
@@ -222,7 +222,7 @@ const celebQuestions =
       "category": "Celebrities",
       "type": "multiple",
       "difficulty": "hard",
-      "question": "Which of these celbs is acrophobic, meaning she is afraid of heights.?",
+      "question": "Which of these celebs is acrophobic, meaning she is afraid of heights.?",
       "correct_answer": "Nicki Minaj",
       "incorrect_answers": [
         "Rita Ora",
