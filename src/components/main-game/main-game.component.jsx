@@ -31,6 +31,7 @@ const MainGame = ({
     const [showCorrectAnswer, setShowCorrectAnswer] = useState(false)
     const [gameMusicAudio] = useState(new Audio(gameMusicUrl));
     const [winMusicAudio] = useState(new Audio(winMusicUrl))
+    const [showAnswers, setShowAnswers] = useState(false)
 
     gameMusicAudio.addEventListener('ended', function () {
       gameMusicAudio.currentTime = 0;
@@ -167,13 +168,26 @@ const MainGame = ({
     useEffect(() => {
         if (questions.length > 0) {
             if (questionNum <= 19) {
+              setShowAnswers(false)
+
                 setQuestion(questions[questionNum].question)
+                const incorrectAnswers = questions[questionNum].incorrect_answers.map(answers => {
+                  return {
+                    answer: answers,
+                    correct: false
+                  }
+                })
+                const correctAnswer = {
+                  answer: questions[questionNum].correct_answer,
+                  correct: true 
+                }
+               
                 const answers = [
-                    ...questions[questionNum].incorrect_answers,
-                    questions[questionNum].correct_answer
+                    ...incorrectAnswers,
+                    correctAnswer
                 ]
 
-                setCorrectAnswer(questions[questionNum].correct_answer)
+                setCorrectAnswer(correctAnswer)
                 setAnswerArray(shuffle(answers))
                 setDisableButtons(false)
             } else {
@@ -205,8 +219,9 @@ const MainGame = ({
 
 
     const handleAnswer = async (answer) => {
+      setShowAnswers(true)
       
-        if (answer === correctAnswer) {
+        if (answer.answer === correctAnswer.answer) {
           const updated = userScores.map(user => {
             if (username === user.usermame) {
                 user.score = user.score + 1;
@@ -293,11 +308,10 @@ const MainGame = ({
                         >
                           <button disabled={disableButtons}
                             onClick={() => handleAnswer(answer)}
-                            className={disableButtons ? 'disabled' : ''}
-                            // className={showCorrectAnswer ? 'green': ''}
+                            className={showAnswers ? answer.correct ? 'green' : 'red' : ''}
                             >
                             {letter()}
-                            {answer} 
+                            {answer.answer} 
                           </button>
                         </div>
                       )

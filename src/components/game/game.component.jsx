@@ -56,7 +56,7 @@ const Game = ({
         }
     ])
 
-    let [seconds, setSeconds] = useState(3)
+    let [seconds, setSeconds] = useState(10)
 
 
     useEffect(() => {
